@@ -363,7 +363,7 @@ d3.csv("pokemon_alopez247.csv").then(rawData => {
             .range([parallelHeight, 0]);
     });
     
-    // Build the X scale -> it finds the best position for each Y axis
+    // Build the X scale
     const x3 = d3.scalePoint()
         .range([0, parallelWidth])
         .domain(dimensions);
